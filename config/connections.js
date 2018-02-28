@@ -48,30 +48,6 @@ module.exports.connections = {
     database: 'asiaweb'
   },
 
-  asiacellserver: {
-    adapter: 'sails-mysql',
-    host: '10.21.165.50',
-    //host: '10.21.165.51',//this url is only for replication
-    user: 'appadmin',
-    password: 'appadmin',
-        database: 'asiaweb'
-  },
-
-  asiacellserver58ssl: {
-    adapter: 'sails-mysql',
-    host: '10.21.165.58',
-    user: 'appadmin',
-    password: 'appadmin123',
-    database: 'asiaweb',
-    connectTimeout: 60000,
-    ssl: {
-      ca : require('fs').readFileSync(__dirname + '/ssl/db58/ca-cert.pem'),
-      key: require('fs').readFileSync(__dirname + '/ssl/db58/client-cert.pem'),
-      cert: require('fs').readFileSync(__dirname + '/ssl/db58/client-key.pem'),
-      passphrase: ''
-    }
-  },
-
   localMysqlServerAdmin: {
     adapter: 'sails-mysql',
     host: 'localhost',
