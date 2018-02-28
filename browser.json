@@ -1,0 +1,17 @@
+{
+  "mobile": {
+    "os": [
+      {"android": "3"},
+      {"ios": "4"},
+      {"window": "8"}
+    ],
+
+    "browser": [
+      {"ie": "8"},
+      {"chrome": "0"},
+      {"safari": "0"},
+      {"opera": "0"},
+      {"firefox": "0"}
+    ]
+  }
+}

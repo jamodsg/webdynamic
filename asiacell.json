@@ -1,0 +1,5 @@
+[{
+  "name"      : "Sails",
+  "script"    : "./app.js",
+  "args"      : "['--prod']"
+}]
