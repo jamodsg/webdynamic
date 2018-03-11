@@ -8,7 +8,7 @@
 module.exports = {
 
   attributes: {
-    relatedPost: {
+    relatedPosts: {
       type: 'integer' // must be post id
     },
     post: {
